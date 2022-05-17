@@ -34,7 +34,6 @@ public class AreNumbersEqualTest {
 
     }
 
-
     @Order(2)
     @Test
     public void testAreNumbersEqualHappyPathGreater() {
@@ -49,5 +48,4 @@ public class AreNumbersEqualTest {
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
-
 }
