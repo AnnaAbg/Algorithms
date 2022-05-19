@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class OddEvenTest {
 
@@ -17,7 +17,6 @@ public class OddEvenTest {
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
-
 
     @Order(3)
     @Test
@@ -95,7 +94,6 @@ public class OddEvenTest {
 
     }
 
-
     @Order(7)
     @Test
     public void testOddEvenHappyZero() {
@@ -110,7 +108,6 @@ public class OddEvenTest {
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
-
 }
 
 
