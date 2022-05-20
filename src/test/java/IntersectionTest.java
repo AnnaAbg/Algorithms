@@ -46,6 +46,5 @@ public class IntersectionTest {
         int[] actualResult = in.intersectionAlgorithm(arr1, arr2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 }

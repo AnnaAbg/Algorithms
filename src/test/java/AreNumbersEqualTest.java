@@ -46,6 +46,6 @@ public class AreNumbersEqualTest {
         int actualResult = ane.areNumbersEqualAlgorithm(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
 }

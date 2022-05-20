@@ -14,7 +14,6 @@ public class AscendingSequence {
                 if (start <= end) {
                     result[i] = start;
                     start += step;
-                    // if start is > then end we are not count anything
                 }
             }
             return result;

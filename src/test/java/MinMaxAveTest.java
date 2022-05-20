@@ -100,6 +100,6 @@ public class MinMaxAveTest {
         int [] actualResult = mma. minMaxAveAlgorithm(array,min,max);
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
-
     }
+
 }

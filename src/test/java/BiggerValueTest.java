@@ -18,7 +18,6 @@ public class BiggerValueTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
-
     @Order(2)
     @Test
     public void testBiggerValueNegative() {
@@ -31,21 +30,20 @@ public class BiggerValueTest {
         int actualResult = bv.biggerValueAlgorithm(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(3)
     @Test
     public void testBiggerValueHappyPass3() {
+
         int a = -3333;
         int b = 3333;
         int expectedResult = 3333;
-
 
         BiggerValue bv = new BiggerValue();
         int actualResult = bv.biggerValueAlgorithm(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
 }

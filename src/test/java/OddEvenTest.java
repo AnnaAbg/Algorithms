@@ -29,9 +29,7 @@ public class OddEvenTest {
         String actualResult = oddEven.oddEvenAlgorithm(number);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
-
 
     @Order(2)
     @Test
@@ -43,11 +41,8 @@ public class OddEvenTest {
         OddEven oddEven = new OddEven();
         String actualResult = oddEven.oddEvenAlgorithm(number);
 
-
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
-
 
     @Order(4)
     @Test
@@ -58,7 +53,6 @@ public class OddEvenTest {
 
         OddEven oddEven = new OddEven();
         String actualResult = oddEven.oddEvenAlgorithm(number);
-
 
         Assertions.assertEquals(expectedResult, actualResult);
 
@@ -74,7 +68,6 @@ public class OddEvenTest {
         OddEven oddEven = new OddEven();
         String actualResult = oddEven.oddEvenAlgorithm(number);
 
-
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
@@ -88,7 +81,6 @@ public class OddEvenTest {
 
         OddEven oddEven = new OddEven();
         String actualResult = oddEven.oddEvenAlgorithm(number);
-
 
         Assertions.assertEquals(expectedResult, actualResult);
 
@@ -104,10 +96,9 @@ public class OddEvenTest {
         OddEven oddEven = new OddEven();
         String actualResult = oddEven.oddEvenAlgorithm(number);
 
-
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
 }
 
 

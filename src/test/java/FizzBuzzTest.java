@@ -15,7 +15,6 @@ public class FizzBuzzTest {
         String actualResult = fb.fizzBuzzAlgorithm(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(2)

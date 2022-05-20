@@ -14,6 +14,6 @@ public class KthLargestTest {
         int actualResult = kl.kthLargestAlgorithm(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
+
 }

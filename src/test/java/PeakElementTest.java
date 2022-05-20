@@ -29,9 +29,7 @@ public class PeakElementTest {
         int[] actualResult = pek.peakElementAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
-
 
     @Order(3)
     @Test
@@ -44,7 +42,6 @@ public class PeakElementTest {
         int[] actualResult = pek.peakElementAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 
     @Order(4)
@@ -58,7 +55,6 @@ public class PeakElementTest {
         int[] actualResult = pek.peakElementAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 }
 

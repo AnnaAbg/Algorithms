@@ -4,7 +4,6 @@ import org.junit.jupiter.api.*;
 
 public class ReverseArrayTest {
 
-
     @Order(1)
     @Test
     public void testReverseArrayHappyPath() {
@@ -42,6 +41,5 @@ public class ReverseArrayTest {
         int[] actualResult = rev.reverseArrayAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 }
