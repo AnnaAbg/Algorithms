@@ -112,7 +112,6 @@ public class AscendingSequenceTest {
         int[] actualResult = as.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 
     @Order(8)
@@ -128,5 +127,4 @@ public class AscendingSequenceTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
 }

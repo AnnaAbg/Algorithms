@@ -42,5 +42,4 @@ public class RemoveDuplicatesTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }

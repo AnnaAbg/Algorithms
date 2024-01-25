@@ -28,7 +28,6 @@ public class OddIndicesTest {
         int[] actualResult = od.oddIndicesAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 
     @Order(3)
@@ -42,7 +41,5 @@ public class OddIndicesTest {
         int[] actualResult = od.oddIndicesAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
-
 }

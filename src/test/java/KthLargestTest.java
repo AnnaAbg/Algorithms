@@ -15,5 +15,4 @@ public class KthLargestTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }

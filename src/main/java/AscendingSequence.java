@@ -7,7 +7,7 @@ public class AscendingSequence {
         if (step > 0 && start < end) {
             //int[] result = new int[end - start + 1]; // +1 is to count all the elements after sub - for the first 3 tests
             // int[] result = new int[(end - start + 1) / step] ; // for the test StepTwo
-            int[] result = new int[((end - start) / step) +1] ; // for the last test
+            int[] result = new int[((end - start) / step) + 1]; // for the last test
 
 
             for (int i = 0; i < result.length; i++) {
@@ -20,7 +20,6 @@ public class AscendingSequence {
 
         }
         return new int[]{};  // if the data are not valid
-
     }
 }
 

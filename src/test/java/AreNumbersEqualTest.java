@@ -16,7 +16,6 @@ public class AreNumbersEqualTest {
         int actualResult = ane.areNumbersEqualAlgorithm(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(3)
@@ -31,7 +30,6 @@ public class AreNumbersEqualTest {
         int actualResult = ane.areNumbersEqualAlgorithm(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(2)
@@ -47,5 +45,4 @@ public class AreNumbersEqualTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }

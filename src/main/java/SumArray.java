@@ -9,7 +9,6 @@ public class SumArray {
             }
 
             return sum;
-
         }
         return 0;
     }

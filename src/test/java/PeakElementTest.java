@@ -15,7 +15,6 @@ public class PeakElementTest {
         int[] actualResult = pek.peakElementAlgorithm(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
-
     }
 
     @Order(2)

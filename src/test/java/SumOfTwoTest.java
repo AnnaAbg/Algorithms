@@ -15,5 +15,4 @@ public class SumOfTwoTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
 }

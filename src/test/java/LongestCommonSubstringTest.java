@@ -16,5 +16,4 @@ public class LongestCommonSubstringTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }

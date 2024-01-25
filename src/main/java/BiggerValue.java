@@ -1,9 +1,7 @@
 public class BiggerValue {
 
     public int biggerValueAlgorithm(int a, int b) {
-
         return Math.max(a, b);
-
     }
 }
 

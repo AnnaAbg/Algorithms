@@ -14,7 +14,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(555);
 
         Assertions.assertTrue(expectedResult, String.valueOf(actualResult));
-
     }
 
     @Order(2)
@@ -27,7 +26,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(0);
 
         Assertions.assertTrue(expectedResult, String.valueOf(actualResult));
-
     }
 
 
@@ -41,7 +39,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(-555);
 
         Assertions.assertFalse(expectedResult, String.valueOf(actualResult));
-
     }
 
     @Order(4)
@@ -55,7 +52,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(number);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(5)
@@ -69,7 +65,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(number);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
 
@@ -84,6 +79,5 @@ public class IsPositiveNumberTest {
         boolean actualResult = pn.isPositiveNumberAlgorithm(number);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 }

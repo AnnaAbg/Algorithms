@@ -45,5 +45,4 @@ public class BiggerValueTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }

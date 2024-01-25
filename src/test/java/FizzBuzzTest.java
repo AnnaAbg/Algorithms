@@ -28,7 +28,6 @@ public class FizzBuzzTest {
         String actualResult = fb.fizzBuzzAlgorithm(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(3)
@@ -42,7 +41,6 @@ public class FizzBuzzTest {
         String actualResult = fb.fizzBuzzAlgorithm(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(4)
@@ -56,7 +54,6 @@ public class FizzBuzzTest {
         String actualResult = fb.fizzBuzzAlgorithm(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 
     @Order(5)
@@ -70,6 +67,5 @@ public class FizzBuzzTest {
         String actualResult = fb.fizzBuzzAlgorithm(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
-
     }
 }

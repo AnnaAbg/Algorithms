@@ -18,7 +18,6 @@ public class MinMaxAveTest {
         int [] actualResult = mma. minMaxAveAlgorithm(array,min,max);
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
-
     }
 
     @Order(2)
@@ -35,8 +34,8 @@ public class MinMaxAveTest {
         int [] actualResult = mma. minMaxAveAlgorithm(array,min,max);
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
-
     }
+
     @Order(3)
     @Test
     public void testMinMaxAveArrayZeroValues() {
@@ -51,7 +50,6 @@ public class MinMaxAveTest {
         int [] actualResult = mma. minMaxAveAlgorithm(array,min,max);
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
-
     }
 
     @Order(4)
@@ -68,8 +66,8 @@ public class MinMaxAveTest {
         int [] actualResult = mma. minMaxAveAlgorithm(array,min,max);
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
-
     }
+
     @Order(4)
     @Test
     public void testMinMaxAveMaxNegative() {
@@ -101,5 +99,4 @@ public class MinMaxAveTest {
 
         Assertions.assertArrayEquals(expectedResult,actualResult);
     }
-
 }
